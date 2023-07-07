@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on J Jones</title>
+    <link>http://jjonesnex.github.io/tags/</link>
+    <description>Recent content in Tags on J Jones</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://jjonesnex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dkim</title>
+      <link>http://jjonesnex.github.io/tags/dkim/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/dkim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dmarc</title>
+      <link>http://jjonesnex.github.io/tags/dmarc/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/dmarc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>http://jjonesnex.github.io/tags/email/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>http://jjonesnex.github.io/tags/security/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spam</title>
+      <link>http://jjonesnex.github.io/tags/spam/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/spam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spf</title>
+      <link>http://jjonesnex.github.io/tags/spf/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/spf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>support</title>
+      <link>http://jjonesnex.github.io/tags/support/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>true stories</title>
+      <link>http://jjonesnex.github.io/tags/true-stories/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/true-stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>http://jjonesnex.github.io/tags/example/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax</title>
+      <link>http://jjonesnex.github.io/tags/markdown-syntax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/markdown-syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathjax</title>
+      <link>http://jjonesnex.github.io/tags/mathjax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sample</title>
+      <link>http://jjonesnex.github.io/tags/sample/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/sample/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emoji support</title>
+      <link>http://jjonesnex.github.io/tags/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/emoji-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Placeholder text</title>
+      <link>http://jjonesnex.github.io/tags/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/placeholder-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rich content</title>
+      <link>http://jjonesnex.github.io/tags/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      
+      <guid>http://jjonesnex.github.io/tags/rich-content/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
