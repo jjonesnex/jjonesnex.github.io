@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:title" content="Customers Lie" />
+<meta property="og:description" content="You don&rsquo;t want to admit it, but you know that it&rsquo;s true. Sometimes, it is not even intentional and just happens. We also tend to call them &ldquo;mistakes&rdquo; to soften everyones&rsquo; feels. You do it, I do it, everyone does it. Let&rsquo;s talk about it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jjonesnex.github.io/blogs/customers_lie/" /><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2023-07-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-08T00:00:00+00:00" /><meta property="og:site_name" content="J Jones" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Customers Lie"/>
+<meta name="twitter:description" content="You don&rsquo;t want to admit it, but you know that it&rsquo;s true. Sometimes, it is not even intentional and just happens. We also tend to call them &ldquo;mistakes&rdquo; to soften everyones&rsquo; feels. You do it, I do it, everyone does it. Let&rsquo;s talk about it."/>
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        width: .5em;
+        height: .5em;
+        background-color: var(--background-color);
+    }
+    
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px var(--background-color);
+        border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background-color: var(--secondary-color);
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+Customers Lie | J Jones
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                J Jones
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            Who I Am
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Functional Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education and Certifications
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Other Things I&#39;ve Done
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Customers Lie</h1>
+            <div class="text-center">
+              Jay Jones 
+              <small>|</small>
+              Jul 8, 2023
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid" src="/images/blogs/clies.jpg" alt="Customers Lie">
+          </div>
+          
+          <article class="page-content  p-2">
+          <!-- an article about mistakes and how they can be made by anyone. Forgive them. -->
+<p>One of the worst things that can be done in the world of technology, or cooking, for that matter, is to assume. Assumptions have the quality of not being factual or concrete, while having the strange qualities of seeming so. As my 10th grade math teacher stated on the first day of class:</p>
+<p>&ldquo;Never <em>assume</em>. Because when you assume, you make an <em>ass</em> out of U and Me.&rdquo; I&rsquo;ve carried that mantra with me for decades.</p>
+<p>Follow the logic trail with me and if you use your <a href="https://en.wikipedia.org/wiki/Vulcan_(Star_Trek)">Vulcan</a> tendencies, you can think this out without getting angry about it and missing the point.</p>
+<ul>
+<li>Customers lie.</li>
+<li>Everyone (yes, even me) is a customer,</li>
+<li>Thus, everybody lies.</li>
+</ul>
+<p>At my first real technical job in 1995, I worked for a major computer hardware value added reseller. Basically, we took the hardware from the component vendors, put them into a customized desktop, and businesses paid us for the desktop at a lower, more equitable price than the big box stores could offer. It was a boon for small companies.</p>
+<p>First, I was on the team that assembled the machines, and after a few months, the friend that got me the job managed to get me into the phone support team. I can opine on that process another time.</p>
+<p>I&rsquo;ve got stories.</p>
+<p>One day I arrived at a specific problem. We had an irate caller that was handed to me basically to build character (mine), and not only was everyone at the end of their ropes with him, he was at the end of his rope with <em>us</em>.</p>
+<p>He had been shipped seven machines, one after the other, and each time they would last an hour or two and then die an ugly death due to catastrophic hard drive failure. Back then, kids, hard drives were a case about the size of a deck of tarot cards, and contained three to five metal disks that spun and held data in a manner that was electromagnetically fragile.</p>
+<p>It made no sense that these disks kept failing, but he would return the machine for a new one, and when we inspected the machine, everything would be fine except for the drive. After the second one, we just replaced the drive and sent the same machine back. On this latest effort, we walked and physically observed the shipping because pretty much everyone had been challenged and yelled at over this situation.</p>
+<p>But it was only this fellow that had this problem, and that made no sense.</p>
+<p>I knew that the desktop he would inevitably be calling about was a sound, working machine because I had personally built and tested it myself, as if it were my own computer.</p>
+<p>The box had passed every diagnostic, given me the beautiful Windows 95 startup screen and I couldn&rsquo;t have been more satisfied with it. I was honestly surprised that we had let him do this seven times, which is either the beginning of a Disney movie, or a good round of social engineering on his part.</p>
+<p>His call was bound to come, because it had happened almost like clockwork before, and as expected, within a day of receipt, we received a request for return due to a defective hard drive, and angry choice words.</p>
+<p>Then the call was routed to me from his sales representative that sounded on the verge of tears and a mental breakdown. He wasn&rsquo;t just about to drop his basket, he had the tone of a man about to spike it with the fury of an NFL end zone celebration.</p>
+<p>The phone call began as normally as it could, and after a few minutes of zippy conversation that might have resembled a 50&rsquo;s television bedside manner, my customer was in good spirits. No sense in pulling the Gregory House mode on the customer out of the gate. That&rsquo;s itching for a rumble, Outsiders style.</p>
+<p>&ldquo;You people sent me another bum computer,&rdquo; he started off.</p>
+<p>&ldquo;So I heard,&rdquo; I responded, &ldquo;Let&rsquo;s see if we can&rsquo;t figure out what&rsquo;s going on here. I built that machine myself, so I know for a fact it was good when it left here. Walk me through what happened.&rdquo;</p>
+<p>&ldquo;I got the computer, brought it in here, put it on my desk, and it booted right up. I got everything set up, situated all my stuff, and then the drive was gone. This happens every time. I don&rsquo;t know what kind of jokes you folks like playing on your customers, but I don&rsquo;t think it&rsquo;s very funny.&rdquo;</p>
+<p>&ldquo;Humor me. Let&rsquo;s open it up and check the jumpers and cables on the motherboard. Got a Phillips-head screwdriver?&rdquo;</p>
+<p>&ldquo;I do.&rdquo;</p>
+<p>&ldquo;Outstanding. Let&rsquo;s break into it.&rdquo; I heard him fumbling around, papers and items being shuffled around his desk, and the light weighted clacking of what sounded like the screwdriver. Then I heard the clunk of a thud that just didn&rsquo;t fit. It had the sound of a brick being dropped on a tabletop. It was a bit rough for the computer.</p>
+<p>&ldquo;What was that sound?&rdquo;</p>
+<p>&ldquo;Oh, that was my airplane magnet.&rdquo;</p>
+<p>&ldquo;Your what?&rdquo;</p>
+<p>&ldquo;My airplane magnet. Got it off a small commuter a few years ago when I worked at the airport. Thing&rsquo;s pretty handy. I keep the airplane magnet on there to hold my password sheet and invoices. I used to have something else here before I started with this computer nonsense. But if I&rsquo;m gonna break into this thing, I gotta take it off.&rdquo;</p>
+<p>&ldquo;Wait, so you have that thing on the side of your computer? Like, literally attached to it?&rdquo;</p>
+<p>&ldquo;The computer&rsquo;s metal. You should know that, you said you built it. &quot;</p>
+<p>&ldquo;Well, <em>that&rsquo;s</em> your problem!&rdquo; I said, trying to not explode.</p>
+<p>&ldquo;How so?&rdquo; he asked, genuinely confused.</p>
+<p>&ldquo;I want you to listen, and listen close. Magnets wipe hard drives clean. Magnets and hard drives do <strong>not</strong> get along. When they are within arm&rsquo;s length of each other, the only thing you&rsquo;re missing is an announcer screaming &lsquo;Let&rsquo;s get ready to rumble!&rsquo;&rdquo;</p>
+<p>&ldquo;I didn&rsquo;t know that. So they really clean the drive?&rdquo;</p>
+<p>&ldquo;So clean that Mr. Clean thinks about them when he&rsquo;s in the shower.&rdquo;</p>
+<p>&ldquo;<em>That&rsquo;s</em> why I keep having floppies go bad. Huh.&rdquo;</p>
+<p>&ldquo;From now on, your magnets and electronics do not go out on first dates. It&rsquo;ll save you a whole lotta trouble.&rdquo;</p>
+<p>In case you&rsquo;re curious, <strong>this is a true story</strong>. I have witnesses. That eighth drive was the last one, and we never heard from him again.</p>
+<p>A decade later, I was working in a different segment of the tech industry, with much more experience under my belt, and I had a friend in the department adjacent that provided desktop and general IT support for a media company.</p>
+<p>He had received a call from one of the prominent on-air personalities who was more than a little huffy. He couldn&rsquo;t get into his laptop. The password just wouldn&rsquo;t work. My friend, who we&rsquo;ll call Terrell, tried the password, and it worked fine.</p>
+<p>The customer demanded a new password. Then another. Then a third new one. Every password worked for Terrell, none of them worked for the customer, who increased in steaming velocity with each new iteration. Terrell asked the personality to check his Caps Lock key, which set of an explosion of profanity that we heard two aisles over.</p>
+<p>The customer demanded that his get his little behind in his little car and come fix the laptop at his house immediately and stop messing around because the personality had a flight in a few hours. Of course, those instructions have been softened from what he actually said for a family-friendly audience. Terrell did exactly that, because there was a contract that required it. After throwing his phone, of course.</p>
+<p>45 minutes driving one way later, Terrell walked in, heard more verbal abuse, and examined the laptop to see the glowing green light he fully expected to see.</p>
+<p>&ldquo;Do you see that green light right there?&rdquo; he asked the customer.</p>
+<p>&ldquo;Yes.&rdquo;</p>
+<p>Terrell punched the Caps Lock key, and the light went out. The customer cocked his head like the RCA Dog.</p>
+<p>&ldquo;The power light&rsquo;s off,&rdquo; he told Terrell.</p>
+<p>&ldquo;That&rsquo;s the Caps Lock key,&rdquo; Terrell informed him, and handing him a sticky note with the password said, &ldquo;Type that in and let&rsquo;s see what happens.&rdquo;</p>
+<p>The customer was logged in immediately.</p>
+<p>&ldquo;Oh, wow. I&rsquo;m in.&rdquo;</p>
+<p>&ldquo;And now we know what a Caps Lock key does.&rdquo;</p>
+<p>The customer at no time apologized for his mistake, or the cursing, or the 90 minutes of driving time Terrell had to make on his own dime.</p>
+<p>Terrell quit the following week. I still can&rsquo;t stand to see that guy on TV.</p>
+<p>A few years later, I was working in a high-rise. I&rsquo;ve written before about my former love of high-rise buildings. I had been given a new laptop, partially against my will and this was during the beginnings of the WiFi age.</p>
+<p>For some reason, I couldn&rsquo;t get the wifi adapter to register or connect to anything for life, love, or money. So I did what most would do, and called my IT Desktop Support, who happened to be a personal friend as well.</p>
+<p>He tried to explain what to do, and I guess I simply wasn&rsquo;t listening. Nothing he was saying was making sense. I&rsquo;d been a network engineer, for goodness sake. I should have been telling <em>him</em> how to do this.</p>
+<p>&ldquo;I&rsquo;ll send you the manual in your email. Look at it. It&rsquo;ll make sense.&rdquo;</p>
+<p>I flipped through quickly, being frustrated, not paying attention. I called him back. He was not pleased. This was becoming less like a normal day at work, and more like an episode of Thomas the Tank Engine.</p>
+<p>&ldquo;I&rsquo;m coming over,&rdquo; he said.</p>
+<p>After a few moments, he appeared in my cubicle. &ldquo;Pop open that PDF,&rdquo; he commanded. &ldquo;I <em>highlighted</em> the part you needed to see. I literally <em>drew you a picture</em>.&rdquo;</p>
+<p>Indeed, he had.</p>
+<p>The diagram he had highlighted showed a slider on the side of the laptop. I had missed it because I had incorrectly assumed (there&rsquo;s that word again) that it was for the laptop battery lock.</p>
+<p>&ldquo;Pull that slider towards you, jackass,&rdquo; he ordered with a smirk.</p>
+<p>Immediately, the listing of available networks popped alive on screen.</p>
+<p>&ldquo;Wow,&rdquo; he intoned with his best Ben Stein impression.</p>
+<p>&ldquo;I apologize,&rdquo; I told him in force-fed humility, &ldquo;I got that <em>very</em> wrong.&rdquo;</p>
+<p>&ldquo;You owe me a Coke.&rdquo;</p>
+<p>&ldquo;I owe you two Cokes,&rdquo; I told him, &ldquo;One for making it right, and another for being an ass.&rdquo;</p>
+<p>&ldquo;Sold.&rdquo;</p>
+<p>I never made that mistake again, and learned to double check before I get mad at support.</p>
+<p>I also had a situation when I was on the phone with a customer. I was feeling a bit lazy and trusting. The customer was already logged into the server, and at the time there were several hoops I had to jump through to get into it myself. He wanted to run the commands, so I accommodated him.</p>
+<p>&ldquo;This is not working,&rdquo; he said, getting even more frustrated. He was very stressed because the service had gone down, and his boss wouldn&rsquo;t stop breathing down his neck. I understood what that felt like. I did not, however, understand why my command wasn&rsquo;t working as it was one I executed several times every day.</p>
+<p>As I proceeded to log in myself, I contacted my usual sanity check person and explained the conundrum.</p>
+<p>&ldquo;Look at it yourself,&rdquo; he advised, &ldquo;<em>The first rule of tech support is that the customer lies</em>. Don&rsquo;t assume on what they say. Check it yourself.&rdquo;</p>
+<p>Sure enough, in his stress and weariness to be finished, he was repeatedly <em>listing</em> the binary instead of actually <em>executing</em> it.</p>
+<p>The major takeaway here is to validate everything, document everything, and slow down.</p>
+<p>You&rsquo;ll get there when you get there. It&rsquo;s just better to end up at the right place.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://jjonesnex.github.io/tags/support" target="_blank">support</a></li>
+              
+              <li class="list-inline-item"><a href="http://jjonesnex.github.io/tags/true-stories" target="_blank">true stories</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Customers%20Lie&url=http%3a%2f%2fjjonesnex.github.io%2fblogs%2fcustomers_lie%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Customers%20Lie: http%3a%2f%2fjjonesnex.github.io%2fblogs%2fcustomers_lie%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=Customers%20Lie&amp;body=Check%20out%20this%20site http%3a%2f%2fjjonesnex.github.io%2fblogs%2fcustomers_lie%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    <div class="container py-3" id="recent-posts">
+    
+    
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/customers_lie/">
+                        <img src="/images/blogs/clies.jpg" class="card-img-top" alt="Customers Lie">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/customers_lie/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Customers Lie">Customers Lie</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>You don&rsquo;t want to admit it, but you know that it&rsquo;s true. Sometimes, it is not even intentional and just happens. We also tend to call them &ldquo;mistakes&rdquo; to soften everyones&rsquo; feels. You do it, I do it, everyone does it. Let&rsquo;s talk about it.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 8, 2023</span>
+                    <a href="/blogs/customers_lie/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/the_blessed_trifecta/">
+                        <img src="/images/blogs/trifecta.jpg" class="card-img-top" alt="The Blessed Trifecta">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/the_blessed_trifecta/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="The Blessed Trifecta">The Blessed Trifecta</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Sometimes your mail ends up in their SPAM folder, and you wonder why. No one seems to know why a legitimate mail going from point A to point B could get&hellip; lost. But there&rsquo;s a simple reason why. You&rsquo;re here. Let me tell you why.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 6, 2023</span>
+                    <a href="/blogs/the_blessed_trifecta/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/when_the_chips_fall/">
+                        <img src="/images/blogs/chipsfall.jpg" class="card-img-top" alt="When The Chips Fall">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/when_the_chips_fall/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="When The Chips Fall">When The Chips Fall</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>There are tales we all can tell of times when things have went oh, so right, and then became a tragic tale of events that turned oh, so wrong. The levels of wrong are relative, but when you have to dust off and polish your resume on short notice, you know you&rsquo;ve screwed up. This is that story.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 6, 2023</span>
+                    <a href="/blogs/when_the_chips_fall/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div><div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/jjonesnex" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/jjonesnex/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <a href="https://twitter.com/jjonesnex" aria-label="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#03a9f4"
+                d="M42,37c0,2.762-2.239,5-5,5H11c-2.762,0-5-2.238-5-5V11c0-2.762,2.238-5,5-5h26c2.761,0,5,2.238,5,5 V37z" />
+            <path fill="#fff"
+                d="M36,17.12c-0.882,0.391-1.999,0.758-3,0.88c1.018-0.604,2.633-1.862,3-3 c-0.951,0.559-2.671,1.156-3.793,1.372C31.311,15.422,30.033,15,28.617,15C25.897,15,24,17.305,24,20v2c-4,0-7.9-3.047-10.327-6 c-0.427,0.721-0.667,1.565-0.667,2.457c0,1.819,1.671,3.665,2.994,4.543c-0.807-0.025-2.335-0.641-3-1c0,0.016,0,0.036,0,0.057 c0,2.367,1.661,3.974,3.912,4.422C16.501,26.592,16,27,14.072,27c0.626,1.935,3.773,2.958,5.928,3c-1.686,1.307-4.692,2-7,2 c-0.399,0-0.615,0.022-1-0.023C14.178,33.357,17.22,34,20,34c9.057,0,14-6.918,14-13.37c0-0.212-0.007-0.922-0.018-1.13 C34.95,18.818,35.342,18.104,36,17.12" />
+        </svg>
+    </a>
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="http://jjonesnex.github.io" title="J Jones">
+                    <img alt="Footer logo" src="/fav.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2023  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
