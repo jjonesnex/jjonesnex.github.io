@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>When The Chips Fall on J Jones</title>
+    <link>http://jjonesnex.github.io/blogs/when_the_chips_fall/</link>
+    <description>Recent content in When The Chips Fall on J Jones</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://jjonesnex.github.io/blogs/when_the_chips_fall/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

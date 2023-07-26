@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spf on J Jones</title>
+    <link>http://jjonesnex.github.io/tags/spf/</link>
+    <description>Recent content in spf on J Jones</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://jjonesnex.github.io/tags/spf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Blessed Trifecta</title>
+      <link>http://jjonesnex.github.io/blogs/the_blessed_trifecta/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://jjonesnex.github.io/blogs/the_blessed_trifecta/</guid>
+      <description>Sometimes your mail ends up in their SPAM folder, and you wonder why. No one seems to know why a legitimate mail going from point A to point B could get&amp;hellip; lost. But there&amp;rsquo;s a simple reason why. You&amp;rsquo;re here. Let me tell you why.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:title" content="When The Chips Fall" />
+<meta property="og:description" content="This is about that" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jjonesnex.github.io/blogs/when_the_chips_fall/" /><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2023-07-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-06T00:00:00+00:00" /><meta property="og:site_name" content="J Jones" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="When The Chips Fall"/>
+<meta name="twitter:description" content="This is about that"/>
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        width: .5em;
+        height: .5em;
+        background-color: var(--background-color);
+    }
+    
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px var(--background-color);
+        border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background-color: var(--secondary-color);
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+<meta name="description" content="This is about that">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-5/all-5.15.4.js"></script>
+
+  <title>
+When The Chips Fall | J Jones
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                J Jones
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            Who I Am
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Functional Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education and Certifications
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Other Things I&#39;ve Done
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">When The Chips Fall</h1>
+            <div class="text-center">
+              Jay Jones 
+              <small>|</small>
+              Jul 6, 2023
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid" src="/images/blogs/chipsfall.jpg" alt="When The Chips Fall">
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>There is something I always found attractive about working in high-rise office buildings before the whole &ldquo;working from home&rdquo; thing was a functional reality.</p>
+<p>It had a sense of importance to it, almost a movie quality that was less <a href="https://en.wikipedia.org/wiki/Office_Space">Office Space</a> and more Mr. Anderson in <a href="https://en.wikipedia.org/wiki/The_Matrix">The Matrix</a>. The work day wasn&rsquo;t a world on fire with people that were there to simply watch it all burn down, since that was the most entertaining thing to do, and you could actually get paid for it. Instead, every day was a tactical adventure with a real IT purpose and mission to be accomplished. You got to meet people you would never otherwise see. Pretty girls that would not otherwise give you the time of day would treat you like a celebrity and have an honest conversation with you.</p>
+<p>These were the waning days of Token Ring, and the advent of Ethernet, when in a networking sense we were still banging stones together to see if they&rsquo;d spark.</p>
+<p>I&rsquo;d just finished a job with a telecom company that had been purchased after I&rsquo;d set up their intranet, introduced them to RedHat, and developed a website for them.</p>
+<p>That&rsquo;s a different story.</p>
+<p>The new position was one that I was very excited about. A rather large insurance company had bought five other insurance companies over the previous years and made the move into a high-rise in a lovely wooded area just north of a major city. Needless to say, this had made them even bigger.</p>
+<p>The issue I was hired to help resolve was to upgrade all of the antiquated technology where it could be found and connect those systems into our new network. I was a newly-minted CNE (Certified NetWare Engineer), and they had older servers to upgrade, and now five networks to splice together in one building, under one umbrella.</p>
+<p>It was right up my alley.</p>
+<p>For months, everything went according to plan, some early mornings, some late nights, a few overnights from time to time. One of the transfers landed me a mini-VAX that they were going to trash, so they put it next to the dumpster, and off I drove with it.</p>
+<p>I had been partnered with a fellow we&rsquo;ll call Harry, who had actually been working for the company, and in the process of things I imagine had been let go and brought back for more money as a contractor. He was much more versed in their Windows NT setup than I was and could have been, so we joined forces. With that, I brought the gift of IntraNetWare 4.11.</p>
+<p>IntraNetWare 4.11 had a nice feature of combining all of your login connections together. Previously, one had to login to NT first, then make the connection to NetWare, and I was snotty enough to think the whole darned thing was aesthetically horrid. 4.11 was cleaner, prettier, and did everything more easily for us on the backend.</p>
+<p>It was these technologies that led Harry and I in our quest for more firepower, and of course, we got the approval in four memory chips, two for each of our domain controllers that would almost triple the amount of memory on those machines.</p>
+<p>We had everything scheduled, and the morning of the upgrade had arrived.</p>
+<p>It was a blissful morning. I had my Starbucks quad-shot Venti Mocha in my custom cup, four pristine SIMM chips, and a willingness to succeed. I was going to get a jump on the day and knock this puppy out for the good of the company. My intentions were as pure as the driven snow.</p>
+<p>Once in the data center, wrapped sufficiently in my fleece hoodie, I located the primary and secondary domain controller boxes, pulled them off the rack and moved them to our workbench.</p>
+<p>The original plan was that Harry would meet me in the datacenter, we would upgrade them both and put them back in operation in record time. We thought we had it all planned down to the heroic second.  But once I got to my desk, an hour or so early, I might add, I had a voice message that Harry would be a little late coming in. A willingness to give him less to do, and a desire to have speed from the higher-powered servers was what propelled me to the position at the workbench.</p>
+<p>I opened the two machines, inserted the memory chips, and powered them back on again. I waited for the familiar Windows NT bootup screen, but instead was looking at a black console screen asking me to enter a code.</p>
+<p>It never looked like that before. I was confuddled. Harry passed by the window on the way to his desk, looking like he&rsquo;d been caught in a whirlwind, trying to fix his hair. He wasn&rsquo;t awake yet, and gave a half-hearted wave as he ambled towards his cubicle.</p>
+<p>I tried a few more things I thought might be codes, but none of them worked. I called Harry, who did not feel like talking through what was likely a hangover from Hellraiser. I quickly explained the situation that he was sleep-listening to.</p>
+<p>&ldquo;You have the SIMMs, yeah?&rdquo; he asked.</p>
+<p>&ldquo;They&rsquo;re in the machines already,&rdquo; I replied.</p>
+<p>&ldquo;Well, ask the HP Rep what&rsquo;s going on. He knows more than I do.&rdquo;</p>
+<p>&ldquo;Who?&rdquo;</p>
+<p>&ldquo;The HP guy. Isn&rsquo;t he next to you?&rdquo;</p>
+<p>&ldquo;Uh, no. I don&rsquo;t know who that is. Why would I have a guy from HP here?&rdquo;</p>
+<p>Harry sucked in his breath sharply over the phone and then moaned, &ldquo;Oh, shit. No, no, no&hellip;&rdquo;</p>
+<p>Harry was now fully awake.</p>
+<p>&ldquo;What?&rdquo;</p>
+<p>&ldquo;We forgot to call them for service yesterday.&rdquo;</p>
+<p>&ldquo;Explain. I&rsquo;m not understanding,&rdquo; I responded, confused.</p>
+<p>&ldquo;You cracked both boxes open at the same time, didn&rsquo;t you?&rdquo;</p>
+<p>&ldquo;Well, yes. I know how to replace memory.&rdquo;</p>
+<p>&ldquo;You do them one at a time, not at the <em>same</em> time! Those are different, they&rsquo;re under contract. I shoulda told you about that, but I assumed you knew. You have to have an HP Technician on site to enter a code if the server is physically opened. Otherwise, it won&rsquo;t boot. That&rsquo;s probably the error you&rsquo;re seeing. This is not good. We&rsquo;re locked out. We can&rsquo;t bring those servers back up. I gotta call them right now!&rdquo;</p>
+<p>He hung up, and I began to mentally calculate what I thought was going to happen. The box I had been working on was the Primary Domain Controller, and the machine next to it, in identical state, was the Secondary Domain Controller.</p>
+<p>If you know, you know what level of Hell we were on at this moment.</p>
+<p>And why I was an idiot.</p>
+<p>Because that is precisely the point I realized what I had actually done.</p>
+<p>With the Primary <em>and</em> the Secondary domain controllers down, there was no network access. No one could get to any of their applications, email, or anything else because I was looking at the two dead machines that handled all of that.</p>
+<p>I, friends, was the single point of failure. For a national company that had offices in all 50 US states.</p>
+<p>For a company that in a few short hours had planned a meeting with multi-million dollar potential clients who had flown in from out of town, headed by a vice president that could not get to her presentation, her notes, her email. Or anything else.</p>
+<p><img src="/images/blogs/nemesis.png" alt="an angry vice president I once knew"></p>
+<p>At that moment, I was transported at lightning-fast speed from the consummate expert and tech god I had previously been treated as to a specimen that was mentally, very possibly, only a degree or two off of plant life.</p>
+<p>It was a stupid mistake, and the more painful part was that I <em>knew better</em>. I knew that the two should never come down at the same time, but was not thinking about it at the time. Over 25 years later, this still remains the dumbest mistake I ever made on duty. Thank goodness I never fell for <code>sudo rm -rf /</code>.</p>
+<p>9 AM came and went, and the calls hit like a party line. It was explained that yes, there was a hardware issue, and yes, HP was coming to fix it. He appeared around 11 AM, waltzed in with a smirk and said, &ldquo;This is a helluva way to get hazed,&rdquo; tapped the code into each machine and left. The whole process happened in less than ten minutes.</p>
+<p>Harry had an impromptu meeting after lunch. I wasn&rsquo;t invited, but that wasn&rsquo;t unusual. His silence afterward was.</p>
+<p>Any math I had going on in my head was solved the next morning when I saw the cardboard boxes in my cubicle and a cart nearby. A security guard I was friends with stood by with an irritated look on his face as the boss from my contracting company that I had only seen twice informed me that my services were no longer required. He handed me my final check.</p>
+<p>I understood.</p>
+<p>I wasn&rsquo;t upset. I might have been in most circumstances, but I knew something that they didn&rsquo;t know yet. The security guard escorted me out, and the irritation turned out to be against them, not me. &ldquo;This is just stupid,&rdquo; he said, shaking his head. &ldquo;It just seems wrong to me. I don&rsquo;t think they know what they&rsquo;re doing.&rdquo;</p>
+<p>&ldquo;It&rsquo;s okay,&rdquo; I reassured him with a smile, &ldquo;I have an ace up my sleeve.&rdquo;</p>
+<p>He cocked his head and with a grin asked, &ldquo;And what&rsquo;s that?&rdquo;</p>
+<p>&ldquo;I have an interview with their Unix datacenter next week. In California.&rdquo;</p>
+<p>&ldquo;You sneaky little bastard!&rdquo; he snorted happily, &ldquo;Good luck and good move. I hope you get it!&rdquo;</p>
+<h4 id="the-aftermath">The Aftermath</h4>
+<p>I hadn&rsquo;t lied.</p>
+<p>I had met a girl on the other side of the country, and in that process, the job listing just came up. At the same time, I had learned enough from my short experience to know that hedging your bets is always the best idea, so I gave my resume to a recruiter who help land me two other interviews.</p>
+<p>The datacenter didn&rsquo;t pan out.</p>
+<p>I also heard that the vice president with the delayed meeting was so angry she threw a whiteboard eraser at Harry. He later wouldn&rsquo;t confirm or deny it. I have no idea what happened to any of them. Except she was not only the one that brought an abrupt end to my contract, but also the one that put the kibosh on the datacenter interview.</p>
+<p>My second interview snapped me up so fast my head spun, and two weeks later, on Labor Day, I was living in California.</p>
+<p>I married the girl. We divorced seven years later. No erasers were thrown.</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://jjonesnex.github.io/tags/support" target="_blank">support</a></li>
+              
+              <li class="list-inline-item"><a href="http://jjonesnex.github.io/tags/true-stories" target="_blank">true stories</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=When%20The%20Chips%20Fall&url=http%3a%2f%2fjjonesnex.github.io%2fblogs%2fwhen_the_chips_fall%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=When%20The%20Chips%20Fall: http%3a%2f%2fjjonesnex.github.io%2fblogs%2fwhen_the_chips_fall%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=When%20The%20Chips%20Fall&amp;body=Check%20out%20this%20site http%3a%2f%2fjjonesnex.github.io%2fblogs%2fwhen_the_chips_fall%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    <div class="container py-3" id="recent-posts">
+    
+    
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/8_ways_to_not_turn_your_support_tech_into_a_drunk/">
+                        <img src="/images/blogs/8ways.jpg" class="card-img-top" alt="8 Ways To Not Turn Your Support Tech Into A Drunk">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/8_ways_to_not_turn_your_support_tech_into_a_drunk/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="8 Ways To Not Turn Your Support Tech Into A Drunk">8 Ways To Not Turn Your …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>No matter what they say, your problems are your support tech&rsquo;s problem. How you behave during this time of crisis lends to the service you end up with and by using these eight pointers you can stop driving mommy and daddy to drink. Save your support tech and get everyone back to smiling again.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 14, 2023</span>
+                    <a href="/blogs/8_ways_to_not_turn_your_support_tech_into_a_drunk/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/customers_lie/">
+                        <img src="/images/blogs/clies.jpg" class="card-img-top" alt="Customers Lie">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/customers_lie/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Customers Lie">Customers Lie</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>You don&rsquo;t want to admit it, but you know that it&rsquo;s true. Sometimes, it is not even intentional and just happens. We also tend to call them &ldquo;mistakes&rdquo; to soften everyones&rsquo; feels. You do it, I do it, everyone does it. Let&rsquo;s talk about it.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 8, 2023</span>
+                    <a href="/blogs/customers_lie/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/the_blessed_trifecta/">
+                        <img src="/images/blogs/trifecta.jpg" class="card-img-top" alt="The Blessed Trifecta">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/the_blessed_trifecta/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="The Blessed Trifecta">The Blessed Trifecta</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Sometimes your mail ends up in their SPAM folder, and you wonder why. No one seems to know why a legitimate mail going from point A to point B could get&hellip; lost. But there&rsquo;s a simple reason why. You&rsquo;re here. Let me tell you why.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Jul 6, 2023</span>
+                    <a href="/blogs/the_blessed_trifecta/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div><div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/jjonesnex" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/jjonesnex/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <a href="https://twitter.com/jjonesnex" aria-label="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+            <path fill="#03a9f4"
+                d="M42,37c0,2.762-2.239,5-5,5H11c-2.762,0-5-2.238-5-5V11c0-2.762,2.238-5,5-5h26c2.761,0,5,2.238,5,5 V37z" />
+            <path fill="#fff"
+                d="M36,17.12c-0.882,0.391-1.999,0.758-3,0.88c1.018-0.604,2.633-1.862,3-3 c-0.951,0.559-2.671,1.156-3.793,1.372C31.311,15.422,30.033,15,28.617,15C25.897,15,24,17.305,24,20v2c-4,0-7.9-3.047-10.327-6 c-0.427,0.721-0.667,1.565-0.667,2.457c0,1.819,1.671,3.665,2.994,4.543c-0.807-0.025-2.335-0.641-3-1c0,0.016,0,0.036,0,0.057 c0,2.367,1.661,3.974,3.912,4.422C16.501,26.592,16,27,14.072,27c0.626,1.935,3.773,2.958,5.928,3c-1.686,1.307-4.692,2-7,2 c-0.399,0-0.615,0.022-1-0.023C14.178,33.357,17.22,34,20,34c9.057,0,14-6.918,14-13.37c0-0.212-0.007-0.922-0.018-1.13 C34.95,18.818,35.342,18.104,36,17.12" />
+        </svg>
+    </a>
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="http://jjonesnex.github.io" title="J Jones">
+                    <img alt="Footer logo" src="/fav.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2023  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
